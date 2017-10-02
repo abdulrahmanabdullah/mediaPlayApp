@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="MaterialTheme" parent="SuperClassTheme">
+
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="SuperClassTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="tootlbartTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/white</item> <!--text color of toolbar -->
+        <item name="android:textColorSecondary">@android:color/white</item>
+
+    </style>
+
+    <style name="PoupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#FF080708</item> <!--text color of overflow menu-->
+        <item name="android:textColorSecondary">#fffcfff9</item> <!-- background color of overflow menu-->
+
+    </style>
+</resources>
